@@ -2,13 +2,9 @@
   int c1 = (int) (Math.random() * 225);
   int c2 = (int) (Math.random() * 225);
   int c3 = (int) (Math.random() * 225);
-
-  public void settings() {
-    size(400, 400);
-  }
-
+  
   public void setup() {
-    
+    size(400, 400);
   }
 
   public void draw() {
